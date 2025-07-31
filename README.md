@@ -69,9 +69,4 @@ MIT License - See [LICENSE](LICENSE) file for details.
 ---
 
 *Diagram automatically generated using Python Graphviz*
-try:
-    dot.render('RiskRadarSystem_Architecture', format='png', view=True, cleanup=True)
-    print("Diagrama 'RiskRadarSystem_Architecture.png' generado exitosamente.")
-except Exception as e:
-    print(f"Error al generar el diagrama. Asegúrate de que Graphviz esté instalado y en el PATH de tu sistema.")
-    print(f"Error: {e}")
+
